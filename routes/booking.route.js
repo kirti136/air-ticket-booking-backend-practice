@@ -1,7 +1,8 @@
 const { Router } = require("express");
 const { UserModel } = require("../models/user.model");
-const { FlightModel } = require("../models/flight.model");
 const { BookingModel } = require("../models/booking.model");
+const { FlightModel } = require("../models/flight.model");
+
 const bookingRouter = Router();
 
 /**
